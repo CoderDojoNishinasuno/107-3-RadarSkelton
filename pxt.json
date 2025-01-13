@@ -1,0 +1,26 @@
+{
+    "name": "107-3 宝さがし-レーダースケルトン",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "7-3 自分で止めるようにする #2 ランダム": "github:mame-n/7-3-2stopwithrandom#5e7113d61d19acf11ab97338582bedeb1b558224"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.57",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
